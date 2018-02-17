@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Bootstrap core CSS -->
+<link href="/bootstrap4/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="/bootstrap4/css/verna.css" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="/bootstrap4/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="/bootstrap4/js/ex1.js" type="text/javascript"></script>
+
+
+<meta charset="utf-8">
+
+<title>Задание 1</title>
+
+
+
+</head>
+<body>
+
+<!-- Шапка-->
+<header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/">Горбунов Юрий</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Главная <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ex1.html">Задание 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ex2.php">Задание 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/3/">Задание 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="/3/3.1/">Задание 3 (клиентская часть)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="/3/3.2/">Задание 3 (административная часть)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="readme.html" target="_blank" rel="noopener">Документация</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+<!-- Шапка-->
+
+<div class="col-sm-12 col-xs-12">
+<h1>Раскрашивание таблицы</h1>
+<p>Написать  код, который выполнит следующие действия:</p> 
+<p>При первом нажатии на Button, первая ячейка  окрашивается в красный цвет. При последующих нажатиях добавляется еще одна  строка в которой окрашивается в красный цвет вторая ячейка, третья, и так далее  пока не будет всего 5 строк и красной диагонали. Так же в каждой нечетной  строке в окрашенной ячейке меняем «*» на «+».</strong><p>
+<p>При шестом нажатии на Button должна  появиться надпись поверх таблицы «Test Complete». Если нажать на надпись она  плавно исчезнет.</p> 
+<p>Код можно вставить сюда или приложить в файле к письму.</p>
+ <p>&nbsp;</p>
+ <hr>
+	<div class="divtable">
+        <div id='completeLabel'>Test Complete</div>
+            <table id='table' class="text-center">
+                <tr>
+                    <td>*</td>
+                    <td>*</td>
+                    <td>*</td>
+                    <td>*</td>
+                    <td>*</td>
+                </tr>
+            </table>
+        <div id='button'>Button</div>
+    </div>
+    
+    <h3>Исходный код задания</h3>
+    <ul>
+      <li>
+      	<a href="/bootstrap4/js/ex1.js" title="скачать файл ex1.js">ex1.js</a>
+      </li>
+      <li>
+      	<a href="/bootstrap4/css/verna.css" title="скачать файл verna.css">verna.css</a>
+      </li>
+    </ul>
+</div>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+</body>
+</html>
